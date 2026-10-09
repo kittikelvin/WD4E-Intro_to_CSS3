@@ -19,9 +19,9 @@ footer{
   background-color: #c5a3a3;
 }
 
-li{
-  display: inline;
-  width: 200px;
+li {
+    display: inline-block;
+    width: 150px;
 }
 
 h1{
