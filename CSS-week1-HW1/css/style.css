@@ -123,7 +123,7 @@ header h1 {
 }
 
 
-div {
+.grid {
   display: grid;
   grid-template-columns: repeat(3, 40%);
   justify-content: space-evenly; 
@@ -133,7 +133,7 @@ div {
 }
 
 
-div img {
+.grid img {
   width: 50%;
   height: auto;
   display: block;
