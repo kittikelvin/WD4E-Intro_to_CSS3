@@ -6,22 +6,31 @@
   <meta name="viewport" content="width=device-width">
   <title>Neighborhood Walk</title>
   <!-- You will need to link to the CSS file -->
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <!-- The skip link -->
+
+  <a href="#main-content" id="skip-link">Skip to main content</a>
+
+  <!-- header-->
+
   <header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="neighborhood.html">Neighborhood Walks</a></li>
-        <li><a href="parks.html">Walks in the Park</a></li>
+        <li class="active"><a href="parks.html">Walks in the Park</a></li>
       </ul>
     </nav>
-    <img src="images/BaconGallupPark.jpg" width="200" alt="Brown Labradoodle sitting next to a statue.">
+    <img id="headerImage" src="images/BaconGallupPark.jpg" width="200"
+      alt="Brown Labradoodle sitting next to a statue.">
     <h1>Michigan Parks</h1>
-
   </header>
+
+  <!-- main content -->
+
   <main>
     <div>
       <img src="images/bacon_in_the_woods.png" alt="brown labradoodle sitting near a stream in a wooded setting"
@@ -35,10 +44,11 @@
       <img src="images/mist_over_huron_river.JPG" alt="the mist rising over a river in the morning" width="100">
       <img src="images/munising.jpg" alt="small waterfall" width="100">
       <img src="images/reflected_tree.JPG" alt="reflection of a lake and trees" width="100">
-
     </div>
-
   </main>
+
+  <!-- footer -->
+
   <footer>
     <p>This page was originally created by Colleen van Lent for the <a
         href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
